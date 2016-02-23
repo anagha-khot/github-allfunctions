@@ -6,6 +6,7 @@ import android.os.Bundle;
 public class MainActivity extends AppCompatActivity {
 
     int a=100;
+    int b = 150;
     int c=200;
 
     @Override
@@ -13,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        System.out.println("A : "+a+" C : "+c);
+        System.out.println("A : "+a+" B :"+b+" C : "+c);
     }
 }
